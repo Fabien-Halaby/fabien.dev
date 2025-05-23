@@ -61,6 +61,11 @@ export function Header() {
                     </div>
                 </div>
             </nav>
+            <style jsx>{`
+              #menu-toggle:checked + label + #menu {
+                display: flex;
+              }
+            `}</style>
         </header>
     );
 }

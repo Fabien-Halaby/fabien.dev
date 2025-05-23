@@ -27,11 +27,6 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
-        <style jsx>{`
-          #menu-toggle:checked + label + #menu {
-            display: flex;
-          }
-        `}</style>
       </body>
     </html>
   );
