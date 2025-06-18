@@ -7,7 +7,7 @@ export function AboutMe() {
                 Hi, I’m Fabien Halaby
             </h1>
             <h3 className="text-xl md:text-2xl font-bold text-blue-400 leading-tight">
-                I &apos;m a — Fullstack · Mobile · DevOps
+                Fullstack · Mobile · DevOps · Desktop
             </h3>
             <p className="text-gray-300 text-lg">
                 I craft modern web and mobile apps, automate workflows with DevOps, and explore data to build intelligent solutions.
