@@ -18,17 +18,17 @@ export function SocialNetwork() {
             <div className="space-y-4">
                 <div className="flex items-center gap-3">
                     <MdPhone className="text-blue-400 text-2xl" />
-                    <span>+261 38 29 354 74</span>
+                    <span><a className="text-amber-50" href="tel:+261332510160">+261 33 25 101 60</a></span>
                 </div>
 
                 <div className="flex items-center gap-3">
                     <MdEmail className="text-blue-400 text-2xl" />
-                    <span>fabien.dev@gmail.com</span>
+                    <span><a className="text-amber-50" href="mailto:fabienhalaby13@gmail.com">fabienhalaby13@gmail.com</a></span>
                 </div>
 
                 <div className="flex items-center gap-3">
                     <FaWhatsapp className="text-green-400 text-2xl" />
-                    <span>+261 38 29 354 74</span>
+                    <span><a className="text-amber-50" target="_blank" href="https://wa.me/261382935474">261 38 29 354 74</a></span>
                 </div>
             </div>
 
