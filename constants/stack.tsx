@@ -41,7 +41,7 @@ export const stack = [
       techs: [
         { name: "Node.js", icon: <FaNodeJs className="text-green-500" /> },
         { name: "Laravel", icon: <SiLaravel className="text-red-600" /> },
-        { name: "TypeScript", icon: <SiTypescript className="text-indigo-600" /> },
+        // { name: "TypeScript", icon: <SiTypescript className="text-indigo-600" /> },
         { name: "Python", icon: <FaPython className="text-yellow-400" /> },
       ],
     },
@@ -54,15 +54,15 @@ export const stack = [
         { name: "Flutter", icon: <SiFlutter className="text-sky-400" /> },
       ],
     },
-    {
-      category: "DevOps",
-      techs: [
-        { name: "Docker", icon: <FaDocker className="text-blue-500" /> },
-        { name: "Kubernetes", icon: <SiKubernetes className="text-blue-600" /> },
-        { name: "AWS", icon: <FaAws className="text-orange-400" /> },
-        { name: "Git", icon: <FaGitAlt className="text-red-500" /> },
-      ],
-    },
+    // {
+    //   category: "DevOps",
+    //   techs: [
+    //     { name: "Docker", icon: <FaDocker className="text-blue-500" /> },
+    //     { name: "Kubernetes", icon: <SiKubernetes className="text-blue-600" /> },
+    //     { name: "AWS", icon: <FaAws className="text-orange-400" /> },
+    //     { name: "Git", icon: <FaGitAlt className="text-red-500" /> },
+    //   ],
+    // },
     {
       category: "Database",
       techs: [
@@ -72,13 +72,13 @@ export const stack = [
         { name: "Firebase", icon: <SiFirebase className="text-yellow-500" /> },
       ],
     },
-    {
-      category: "Other",
-      techs: [
-        { name: "Go", icon: <SiGo className="text-cyan-500" /> },
-        { name: "Rust", icon: <SiRust className="text-orange-500" /> },
-        { name: "C++", icon: <SiCplusplus className="text-blue-400" /> },
-        { name: "Java", icon: <DiJava className="text-red-500 w-40 h-12" /> },
-      ],
-    },
+    // {
+    //   category: "Other",
+    //   techs: [
+    //     { name: "Go", icon: <SiGo className="text-cyan-500" /> },
+    //     { name: "Rust", icon: <SiRust className="text-orange-500" /> },
+    //     { name: "C++", icon: <SiCplusplus className="text-blue-400" /> },
+    //     { name: "Java", icon: <DiJava className="text-red-500 w-40 h-12" /> },
+    //   ],
+    // },
   ];

@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="bg-[#0d1117] text-white">
       <head>
-        <title>fabien.dev</title>
+        <title>Fabien Halaby</title>
       </head>
       <body className={`min-h-screen flex flex-col ${dancingScript.variable} font-sans`}>
         <Header />
